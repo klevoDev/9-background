@@ -34,9 +34,13 @@
 
 .page__seamless {
     background-color: #FAFAFA;
+
     padding: 47px 0;
 }
 
+.page__inside {
+    padding: 19px 0 66px;
+}
 
 
 
@@ -73,6 +77,31 @@
     border: 1px solid #921104;
     box-shadow: 0px 4px 6px #921104;
     border-radius: 10px;
+
+    max-width: 100%;
+}
+
+
+
+
+.inside {}
+
+.inside__subheading {
+    margin-bottom: 16px;
+}
+
+.inside__text {
+    margin-bottom: 40px;
+}
+
+.inside__wrap-image {
+    text-align: center;
+}
+
+.inside__image {
+    border: 3px solid #921104;
+    box-shadow: -5px 5px 10px #921104;
+    border-radius: 0px 10px;
 
     max-width: 100%;
 }
