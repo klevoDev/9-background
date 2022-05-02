@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
 
 
 .wrapper {}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 .container {
     max-width: 750px;
@@ -22,7 +26,6 @@
 }
 
 .text {
-    font-family: 'Open Sans';
     font-size: 16px;
     line-height: 130%;
     color: #5F0A01;
@@ -40,6 +43,12 @@
 
 .page__inside {
     padding: 19px 0 66px;
+}
+
+.page__roster {
+    background-color: #FAFAFA;
+
+    padding: 45px 0;
 }
 
 
@@ -83,7 +92,6 @@
 
 
 
-
 .inside {}
 
 .inside__subheading {
@@ -104,4 +112,56 @@
     border-radius: 0px 10px;
 
     max-width: 100%;
+}
+
+
+
+.roster {}
+
+.roster__subheading {
+    margin-bottom: 10px;
+}
+
+.roster__text {
+    margin-bottom: 17px;
+}
+
+.roster__list {}
+
+.roster__item {
+    margin-bottom: 15px;
+
+    padding-left: 26px;
+    margin-left: 31px;
+
+    background-image: url("./../img/check.svg");
+    background-repeat: no-repeat;
+}
+
+.roster__item:nth-child(1) {
+    font-size: 14px;
+    line-height: 130%;
+    color: #5F0A01;
+}
+
+.roster__item:nth-child(2) {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 130%;
+    color: #5F0A01;
+}
+
+.roster__item:nth-child(3) {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #5F0A01;
+}
+
+.roster__item:last-child {
+    font-size: 16px;
+    line-height: 130%;
+    color: #C94436;
+
+    margin-bottom: 0;
 }
