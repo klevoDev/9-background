@@ -51,6 +51,10 @@ body {
     padding: 45px 0;
 }
 
+.page__scaling {
+    padding: 54px 0 49px;
+}
+
 
 
 
@@ -164,4 +168,28 @@ body {
     color: #C94436;
 
     margin-bottom: 0;
+}
+
+
+
+.scaling {}
+
+.scaling__subheading {
+    margin-bottom: 10px;
+}
+
+.scaling__text {
+    margin-bottom: 33px;
+}
+
+.scaling__wrap-image {
+    height: 303px;
+}
+
+.scaling__image {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
 }
