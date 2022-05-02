@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
+.wrapper {}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+
+
+.subheading {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: center;
+    color: #921104;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 130%;
+    color: #5F0A01;
+}
+
+
+
+.page {}
+
+.page__seamless {
+    background-color: #FAFAFA;
+    padding: 47px 0;
+}
+
+
+
+
+
+.seamless {}
+
+.seamless__heading {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #A42A04;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin-bottom: 10px;
+}
+
+.seamless__subheading {
+    margin-bottom: 17px;
+}
+
+.seamless__text {
+    margin-bottom: 33px;
+}
+
+.seamless__wrap-image {
+    text-align: center;
+
+    margin-bottom: 39px;
+}
+
+.seamless__image {
+    border: 1px solid #921104;
+    box-shadow: 0px 4px 6px #921104;
+    border-radius: 10px;
+
+    max-width: 100%;
+}
