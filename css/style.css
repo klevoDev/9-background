@@ -13,6 +13,15 @@ body {
 .container {
     max-width: 750px;
     margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: content-box;
+}
+
+.case {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: content-box;
 }
 
 
@@ -39,21 +48,21 @@ body {
 .page__seamless {
     background-color: #FAFAFA;
 
-    padding: 47px 0;
+    padding: 50px 0;
 }
 
 .page__inside {
-    padding: 19px 0 66px;
+    padding: 50px 0 66px;
 }
 
 .page__roster {
     background-color: #FAFAFA;
 
-    padding: 45px 0;
+    padding: 50px 0;
 }
 
 .page__scaling {
-    padding: 54px 0 49px;
+    padding: 50px 0 49px;
 }
 
 
@@ -73,7 +82,7 @@ body {
 }
 
 .seamless__subheading {
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 
 .seamless__text {
@@ -81,7 +90,8 @@ body {
 }
 
 .seamless__wrap-image {
-    text-align: center;
+    width: 150px;
+    margin: 0 auto;
 
     margin-bottom: 39px;
 }
@@ -94,6 +104,9 @@ body {
     max-width: 100%;
 }
 
+.seamless__text {
+    max-width: 600px;
+}
 
 
 .inside {}
@@ -107,7 +120,8 @@ body {
 }
 
 .inside__wrap-image {
-    text-align: center;
+    max-width: 270px;
+    margin: 0 auto;
 }
 
 .inside__image {
@@ -130,7 +144,11 @@ body {
     margin-bottom: 17px;
 }
 
-.roster__list {}
+.roster__list {
+    font-size: 14px;
+    line-height: 130%;
+    color: #5F0A01;
+}
 
 .roster__item {
     margin-bottom: 15px;
@@ -142,31 +160,26 @@ body {
     background-repeat: no-repeat;
 }
 
-.roster__item:nth-child(1) {
-    font-size: 14px;
-    line-height: 130%;
-    color: #5F0A01;
-}
+
 
 .roster__item:nth-child(2) {
     font-style: italic;
-    font-size: 14px;
-    line-height: 130%;
-    color: #5F0A01;
+    background-position-y: 2px;
 }
 
 .roster__item:nth-child(3) {
     font-weight: 700;
     font-size: 16px;
-    line-height: 130%;
-    color: #5F0A01;
+    background-position-y: 4px;
+}
+
+.roster__item:nth-child(4) {
+    font-size: 16px;
+    color: #C94436;
+    background-position-y: 3px;
 }
 
 .roster__item:last-child {
-    font-size: 16px;
-    line-height: 130%;
-    color: #C94436;
-
     margin-bottom: 0;
 }
 
@@ -191,7 +204,7 @@ body {
     height: 100%;
 
     object-fit: cover;
-    object-position: center;
+    object-position: top left;
 }
 
 
@@ -201,19 +214,18 @@ body {
     background-color: #FAFAFA;
 }
 
-.case {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-hr {
+/* .footer__hr {
     background: #921104;
     height: 2px;
 
     margin-bottom: 18px;
-}
+} */
 
-.footer__text {
+
+.footer__copy {
+    border-top: 2px solid #921104;
+    padding-top: 18px;
+
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
     line-height: 133%;
